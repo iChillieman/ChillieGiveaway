@@ -2,16 +2,16 @@ Hello Tweepz!
 
 This is a script i wrote to track the transfers of a Token to watch who is buying or Selling The Token & And how much they are spending when they buy.
 
-#Intension
+# Intension
 - The intention of this script is to Select a Winner of a Giveaway depending on Token Transfer Activity.
 - Still Figuring out which Criteria should be most elligable to receieve Giveaways.
 - This Script will obviously hook into my Official ChilliePicker project that picks Giveaway Winners on Twitter.
 
-#Important Note:
+# Important Note:
 - The Script is purposely not Finished, as i only want compotent developers that can finish it properly using it.
 - Willing to provide a Finished Script for the price of 5 ETH to anyone who doesnt have the required Dev Skills.
 
-#Usage:
+# Usage:
 1. Enter an Alchemy Project ID and EtherScan API Key into the .env File
 2. Open the config.py file and adjust to your liking.
 3. A: Implement the db_pick_a_presale_winner_who_never_sold function if you want to choose winners who got Presale, but never sold after you announced the Giveaway.
