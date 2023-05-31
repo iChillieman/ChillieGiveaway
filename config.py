@@ -2,13 +2,11 @@
 DB_NAME = 'giveaway.db'
 
 #What do you want the Log file to be called?
-LOG_NAME = 'log_chillieman.log'
+LOG_NAME = 'log_giveawayToken.log'
 
 # What Contract Addresses should be watched to recognize Buy / Sell?
-# As an Example, Im using a couple of PEPE's Pairs
 LIQUIDITY_PAIRS = [
-    '0xa43fe16908251ee70ef74718545e4fe6c5ccec9f',
-    '0x11950d141ecb863f01007add7d1a342041227b58'
+    '0xf08B1E2B69C24D793BD49B32db6527dF769e067E'
 ]
 
 # Do you have a list of Presales you want to Import? 
@@ -23,5 +21,5 @@ PRESALE_CSV_FILENAME = 'example.csv'
 # IF the First line of your CSV contains Columns, Set this to 1
 CSV_START_LINE = 0
 
-# What Token are we Tracking?? For Example im Using PEPE
-TOKEN_ADDRESS = '0x6982508145454ce325ddbe47a25d4ec3d2311933'
+# What Token are we Tracking??
+TOKEN_ADDRESS = '0x8FF5cAc06632935b08DdCa93F357A29cA52f312B'
